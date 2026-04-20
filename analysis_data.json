@@ -1,0 +1,210 @@
+{
+  "pet_owner_costs": {
+    "Grooming": {
+      "monthly_usd": 35,
+      "notes": "Bathing, brushing, nail trimming"
+    },
+    "Food": {
+      "monthly_usd": 55,
+      "notes": "Dry food, wet food, treats"
+    },
+    "Toys & Supplies": {
+      "monthly_usd": 40,
+      "notes": "Toys, bedding, litter, leashes"
+    },
+    "Medical": {
+      "monthly_usd": 50,
+      "notes": "Vaccines, checkups, insurance"
+    }
+  },
+  "store_revenue_by_category": {
+    "Snack": {
+      "revenue_inr": 165430703,
+      "revenue_usd": 1985168,
+      "avg_price_usd": 117,
+      "pct_total": 16.3
+    },
+    "Equipment": {
+      "revenue_inr": 163393635,
+      "revenue_usd": 1960724,
+      "avg_price_usd": 120,
+      "pct_total": 16.1
+    },
+    "Toys": {
+      "revenue_inr": 152795153,
+      "revenue_usd": 1833542,
+      "avg_price_usd": 126,
+      "pct_total": 15.1
+    },
+    "Medicine": {
+      "revenue_inr": 94017290,
+      "revenue_usd": 1128207,
+      "avg_price_usd": 124,
+      "pct_total": 9.3
+    },
+    "Supplements": {
+      "revenue_inr": 81234360,
+      "revenue_usd": 974812,
+      "avg_price_usd": 113,
+      "pct_total": 8.0
+    },
+    "Food": {
+      "revenue_inr": 70901185,
+      "revenue_usd": 850814,
+      "avg_price_usd": 112,
+      "pct_total": 7.0
+    },
+    "Accessory": {
+      "revenue_inr": 67274018,
+      "revenue_usd": 807288,
+      "avg_price_usd": 114,
+      "pct_total": 6.6
+    },
+    "Clothes": {
+      "revenue_inr": 58843909,
+      "revenue_usd": 706127,
+      "avg_price_usd": 121,
+      "pct_total": 5.8
+    },
+    "Bedding": {
+      "revenue_inr": 55086886,
+      "revenue_usd": 661042,
+      "avg_price_usd": 114,
+      "pct_total": 5.4
+    },
+    "Grooming": {
+      "revenue_inr": 54367168,
+      "revenue_usd": 652406,
+      "avg_price_usd": 111,
+      "pct_total": 5.4
+    },
+    "Housing": {
+      "revenue_inr": 50489975,
+      "revenue_usd": 605879,
+      "avg_price_usd": 118,
+      "pct_total": 5.0
+    }
+  },
+  "revenue_by_pet": {
+    "cat": {
+      "revenue_usd": 4754766,
+      "pct": 39.1,
+      "avg_rating": 6.63
+    },
+    "dog": {
+      "revenue_usd": 4591565,
+      "pct": 37.8,
+      "avg_rating": 6.64
+    },
+    "bird": {
+      "revenue_usd": 1084165,
+      "pct": 8.9,
+      "avg_rating": 5.65
+    },
+    "fish": {
+      "revenue_usd": 1024789,
+      "pct": 8.4,
+      "avg_rating": 6.33
+    },
+    "rabbit": {
+      "revenue_usd": 421642,
+      "pct": 3.5,
+      "avg_rating": 6.09
+    },
+    "hamster": {
+      "revenue_usd": 289084,
+      "pct": 2.4,
+      "avg_rating": 5.83
+    }
+  },
+  "vap_impact": {
+    "no_vap": {
+      "avg_revenue_usd": 12863,
+      "avg_sales": 115.3,
+      "avg_rating": 6.39
+    },
+    "with_vap": {
+      "avg_revenue_usd": 14792,
+      "avg_sales": 116.8,
+      "avg_rating": 6.61
+    },
+    "insight": "VAP products generate 15% more revenue per product on average"
+  },
+  "repurchase": {
+    "no_repurchase": {
+      "avg_revenue_usd": 13070,
+      "avg_rating": 6.73
+    },
+    "repurchased": {
+      "avg_revenue_usd": 14722,
+      "avg_rating": 6.23
+    },
+    "insight": "Repurchased products have 12.6% higher revenue but lower ratings - suggesting necessity purchases"
+  },
+  "rating_vs_repurchase": {
+    "Low (1-3)": 68.9,
+    "Mid (4-5)": 43.7,
+    "Good (6-7)": 34.5,
+    "Excellent (8-10)": 48.6
+  },
+  "price_tiers": {
+    "Budget (<$36)": {
+      "avg_sales": 122,
+      "avg_revenue_usd": 2256,
+      "rebuy_rate": 42
+    },
+    "Mid-range ($36-$84)": {
+      "avg_sales": 114,
+      "avg_revenue_usd": 6757,
+      "rebuy_rate": 47
+    },
+    "Premium ($84-$144)": {
+      "avg_sales": 107,
+      "avg_revenue_usd": 12068,
+      "rebuy_rate": 40
+    },
+    "Luxury (>$144)": {
+      "avg_sales": 121,
+      "avg_revenue_usd": 22418,
+      "rebuy_rate": 52
+    }
+  },
+  "revenue_by_country": {
+    "India": {
+      "revenue_usd": 7071428,
+      "pct": 58.4
+    },
+    "USA": {
+      "revenue_usd": 1019476,
+      "pct": 8.4
+    },
+    "Singapore": {
+      "revenue_usd": 973111,
+      "pct": 8.0
+    },
+    "Germany": {
+      "revenue_usd": 959335,
+      "pct": 7.9
+    },
+    "Turkey": {
+      "revenue_usd": 921019,
+      "pct": 7.6
+    },
+    "Belgium": {
+      "revenue_usd": 844711,
+      "pct": 7.0
+    },
+    "Vietnam": {
+      "revenue_usd": 211115,
+      "pct": 1.7
+    },
+    "Sri Lanka": {
+      "revenue_usd": 162155,
+      "pct": 1.3
+    },
+    "Japan": {
+      "revenue_usd": 3663,
+      "pct": 0.03
+    }
+  }
+}
